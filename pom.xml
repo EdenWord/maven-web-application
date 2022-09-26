@@ -108,7 +108,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>eden-app</finalName>
+		<finalName>eden-web-app</finalName>
 		
 		<plugins>
 			<plugin>
