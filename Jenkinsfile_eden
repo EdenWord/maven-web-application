@@ -24,7 +24,6 @@ node{
     input message: 'Application ready for deployment, Please review and approve'
    }
 }
-/*
   stage('7deploy2Prod'){
      deploy adapters: [tomcat9(credentialsId: 'tomcat-credentials', path: '', url: 'http://54.177.42.173:8080/')], contextPath: null, war: 'target/*war' 
 } 
@@ -35,5 +34,5 @@ Check Build status.
 
 Landmark Technologies''', recipientProviders: [buildUser(), developers(), upstreamDevelopers(), brokenBuildSuspects(), brokenTestsSuspects(), contributor()], subject: 'build status', to: 'tesla-app@gmail.com'
   }
-  */
+ 
 }
