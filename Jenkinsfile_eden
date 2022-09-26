@@ -10,6 +10,7 @@ node{
   stage('3codeQuality'){
     sh "${mavenHome}/bin/mvn clean sonar:sonar"
   }
+  /*
   stage('4uploadArtifacts'){
     sh "${mavenHome}/bin/mvn deploy"
   }
@@ -34,4 +35,5 @@ Check Build status.
 
 Landmark Technologies''', recipientProviders: [buildUser(), developers(), upstreamDevelopers(), brokenBuildSuspects(), brokenTestsSuspects(), contributor()], subject: 'build status', to: 'tesla-app@gmail.com'
   }
+  */
 }
